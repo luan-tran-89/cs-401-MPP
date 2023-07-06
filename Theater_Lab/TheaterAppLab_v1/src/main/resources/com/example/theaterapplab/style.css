@@ -1,0 +1,79 @@
+#root {
+    /*-fx-background-image: url("https://img.freepik.com/free-vector/cinema-film-strips-blue-background_1017-23456.jpg?w=2000&t=st=1664249241~exp=1664249841~hmac=7c33b2104d24434b91abe25afe5ac4c07bb0c5a73d8f1ddf2a6d40b0fddd02e5");*/
+
+    -fx-background-image: url("https://img.freepik.com/premium-vector/camera-background-with-composition-realistic-dark-sky-professional-camera-with-light-text_1284-60593.jpg?w=2000");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+.screen-btn {
+    -fx-background-color: yellow;
+    -fx-text-fill: red;
+    -fx-font-size: 16px;
+    -fx-font-weight: 700;
+}
+
+.seatBtn {
+    -fx-border-radius: 2px;
+    -fx-start-margin: 5px;
+    -fx-margin: 5px;
+    -fx-cursor: hand;
+}
+
+.freeSeatBtn {
+
+}
+
+.choosingSeatBtn {
+    -fx-background-color: blue;
+}
+
+.reservedSeatBtn {
+    -fx-background-color: gray;
+}
+
+.seatGrid,
+.noteGrid {
+    -fx-background-color: rgba(0, 0, 0, 0.3);
+    -fx-border-color: gray;
+    -fx-border-radius: 5px;
+}
+
+.frontSeatBtn,
+.fontSeatGrid {
+    -fx-border-color: red;
+}
+
+.middleSeatBtn,
+.middleSeatGrid {
+    -fx-border-color: green;
+}
+
+.backSeatBtn,
+.backSeatGrid {
+    -fx-border-color: gray;
+}
+
+.frontSeatBtn, .middleSeatBtn, .backSeatBtn,
+.fontSeatGrid, .middleSeatGrid, .backSeatGrid {
+    -fx-background-color: white;
+    -fx-border-radius: 2px;
+    -fx-border-width: 2px;
+    -fx-fill: white;
+}
+
+.title {
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+}
+
+.unreserveSeatLbl.active {
+    -fx-text-fill: blue;
+}
+
+.title,
+.labelStyle {
+    -fx-text-fill: white;
+    -fx-fill: white;
+}
